@@ -129,9 +129,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     color: #868F9B;
-    max-width: 750px;
     margin: 0 auto;
-    padding: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -215,6 +213,11 @@ ul, ol {
 .sm-padding {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.img-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -1856,4 +1859,9 @@ header {
 .thumbnail {
     margin: 30px 30px 20px 20px;
     border: 2px solid transparent;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
 }
